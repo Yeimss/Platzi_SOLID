@@ -1,8 +1,8 @@
 namespace OpenClose
 {
-    public class EmployeeFullTime : Employee
+    public class EmployeeContractor : Employee
     {
-        public EmployeeFullTime(string fullname, int hoursWorked)
+        public EmployeeContractor(string fullname, int hoursWorked)
         {
             FullName = fullname;
             HoursWorked = hoursWorked;
